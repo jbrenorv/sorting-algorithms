@@ -24,20 +24,22 @@ int main(int argc, char **argv)
     const int algorithms_count = 13;
     algoritmo algoritmos[] =
     {
-        // Nome           , N max    , Alg.         , Alg. coleta dados
-        { "Bolha"         , 50000    , Bolha       , Bolha_ColetaDados        },
-        { "Bolha Com Flag", 50000    , BolhaComFlag, BolhaComFlag_ColetaDados },
-        { "Coquetel"      , 50000    , Coquetel    , Coquetel_ColetaDados     },
-        { "Seleção"       , 50000    , Selecao     , Selecao_ColetaDados      },
-        { "Inserção"      , 50000    , Insercao    , Insercao_ColetaDados     },
-        { "Shell Sort"    , 214748364, ShellSort   , ShellSort_ColetaDados    },
-        { "Merge Sort"    , 214748364, MergeSort   , MergeSort_ColetaDados    },
-        { "Quick Sort D"  , 214748364, QuickSortD  , QuickSortD_ColetaDados   },
-        { "Quick Sort P"  , 214748364, QuickSortP  , QuickSortP_ColetaDados   },
-        { "Heap Sort"     , 214748364, HeapSort    , HeapSort_ColetaDados     },
-        { "Contagem"      , 214748364, Contagem    , Contagem_ColetaDados     },
-        { "Balde"         , 214748364, Balde       , Balde_ColetaDados        },
-        { "Radix Sort"    , 214748364, RadixSort   , RadixSort_ColetaDados    },
+        // Nome               , N max    , Alg.             , Alg. coleta dados
+        { "Bolha"             , 50000    , Bolha            , Bolha_ColetaDados             },
+        { "BolhaFlag"         , 50000    , BolhaFlag        , BolhaFlag_ColetaDados         },
+        { "Coquetel"          , 50000    , Coquetel         , Coquetel_ColetaDados          },
+        { "Selecao"           , 50000    , Selecao          , Selecao_ColetaDados           },
+        { "Insercao"          , 50000    , Insercao         , Insercao_ColetaDados          },
+        { "Shellsort"         , 214748364, Shellsort        , Shellsort_ColetaDados         },
+        { "Mergesort"         , 214748364, Mergesort        , Mergesort_ColetaDados         },
+        { "Quicksort"         , 214748364, Quicksort        , Quicksort_ColetaDados         },
+        { "Quicksort Prob"    , 214748364, QuicksortProb    , QuicksortProb_ColetaDados     },
+        { "Quicksort Insercao", 214748364, QuicksortInsercao, QuicksortInsercao_ColetaDados },
+        { "Heapsort"          , 214748364, Heapsort         , Heapsort_ColetaDados          },
+        { "Contagem"          , 214748364, Contagem         , Contagem_ColetaDados          },
+        { "Balde"             , 214748364, Balde            , Balde_ColetaDados             },
+        { "Radixsort Contagem", 214748364, RadixsortContagem, RadixsortContagem_ColetaDados },
+        { "Radixsort Balde"   , 214748364, RadixsortBalde   , RadixsortBalde_ColetaDados    },
     };
 
     FILE *fp;
